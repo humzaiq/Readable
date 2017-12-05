@@ -69,7 +69,7 @@ export const deletePost = (id) => {
 export const voteOnPost = (postId, vote) => {
 	return fetch(`${api}/posts/${postId}`, {
 		method: 'POST',
-		headers: { headers },
+		headers: headers ,
 		body: JSON.stringify({option: vote})
 	})
 	.then(data => data.json())
