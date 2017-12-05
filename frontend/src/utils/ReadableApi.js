@@ -7,7 +7,8 @@ if (!token)
 
 const headers = {
   'Accept': 'application/json',
-  'Authorization': token
+  'Authorization': token,
+  'Content-Type': 'application/json'
 }
 
 /* Categories related 
@@ -66,9 +67,9 @@ export const deletePost = (id) => {
 }
 
 export const voteOnPost = (postId, vote) => {
-	fetch(`${api}/posts/${postId}`, {
+	return fetch(`${api}/posts/${postId}`, {
 		method: 'POST',
-		headers: { headers },
+		headers: headers ,
 		body: JSON.stringify({option: vote})
 	})
 	.then(data => data.json())
