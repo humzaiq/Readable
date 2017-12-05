@@ -1,0 +1,106 @@
+/*@import url('https://fonts.googleapis.com/css?family=quicksand');*/
+
+html,
+body {
+    font-family: 'quicksand', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    background-color: white !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.header {
+    font-size: 48px;
+    padding: 40px 0 40px 40px;
+}
+
+.header p {
+    color: #2c3e50!important;
+    font-weight: 600;
+}
+
+.vote-count {
+    font-size: 30px;
+    text-align: center;
+}
+
+.comment-title h4 {
+    display: inline-block;
+}
+
+.comment-title button {
+    display: inline-block;
+}
+
+.categories ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.categories h2 {
+    color: #16a085;
+}
+
+.categories-main-title {
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.post-title p {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.glyphicon {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 28px;
+    padding-left: 6px;
+}
+
+.sorter {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sorter a {
+    padding-left: 6px;
+}
+
+.edit-comment-button {
+    padding-right: 10px;
+}
+
+.edit-post {
+    padding-right: 10px;
+}
+
+.add-comment-button {
+    margin-bottom: 120px !important;
+    margin-top: 20px !important;
+    background-color: white;
+    color: #34495e;
+    border: 2px solid #34495e !important;
+}
+
+.add-post-button {
+    background: #16a085 !important;
+    border: none !important;
+}
+
+.author-info {
+    padding: 30px 0 4px 0;
+}
+
+.author-name,
+.publish-time {
+    color: #34495e;
+    font-size: 16px;
+    font-weight: 500;
+}
